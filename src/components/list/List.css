@@ -1,0 +1,11 @@
+.list-container {
+    max-width: 72rem;
+    background-color: blue;   
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
