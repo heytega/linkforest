@@ -1,4 +1,4 @@
-export const data = [
+const Data = [
   {
     tag: "Twitter Link",
     id: "twitter",
@@ -30,3 +30,5 @@ export const data = [
     link: "https://books.zuri.team/design-rules",
   },
 ];
+
+export default Data;
