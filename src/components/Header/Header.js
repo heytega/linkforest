@@ -13,7 +13,7 @@ const Header = ({ twitter, slack }) => {
       <button className="btn mob_btn">
         <img src={Share_btn_mob} alt="share avatar" />
       </button>
-      <img src={Profile_img} alt="profile display" id="profile_img" />
+      <img src={Profile_img} alt="profile display" id="profile__img" />
       <h1 id={twitter.id}>{twitter.username}</h1>
       <h1 id={slack.id}>{slack.username}</h1>
     </div>
