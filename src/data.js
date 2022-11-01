@@ -17,12 +17,12 @@ const Data = [
   {
     tag: "Python Books",
     id: "book_python",
-    link: "https//books.zuri.team/python-for-beginners?ref_id=${slackName}",
+    link: "https://books.zuri.team/python-for-beginners?ref_id=Akpovbiyor",
   },
   {
     tag: "Background Check for Coders",
     id: "pitch",
-    link: "https//background.zuri.team",
+    link: "https://background.zuri.team/",
   },
   {
     tag: "Design Books",
