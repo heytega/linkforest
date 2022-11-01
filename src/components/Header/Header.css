@@ -2,10 +2,28 @@
     display: none;
 }
 
+.btn {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+    top: 2rem;
+    right: 20%;
+    left: 80%;
+    /* top: 9vh; */
+    /* right: 15rem; */
+    /* right: 20vw; */
+}
+
+.mob_btn{
+    display: none;
+}
+
 .profile-section{
     width: 72rem;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 3.5rem;
+    position: relative;
 }
 
 .profile-section #twitter{
@@ -14,4 +32,26 @@
     line-height: 30px;
     margin-bottom: 3rem;
     margin-top: 1.5rem;
+}
+
+@media(max-width: 73rem) {
+    .profile-section{
+        width: 90%;
+    }
+}
+
+@media(max-width: 60rem){
+
+    .desk_btn{
+        display: none;
+    }
+    
+    .mob_btn{
+        display: block;
+    }
+    .btn {
+        right: 0;
+        left: 90%;
+    }
+
 }
