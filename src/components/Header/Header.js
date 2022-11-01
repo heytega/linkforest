@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Header.css";
 import Profile_img from "../../images/profile__img.png";
-import Share_btn from "../../images/share_btn.png";
-import Share_btn_mob from "../../images/share_btn_mob.png";
+import Share_btn from "../../images/share_btn.svg";
+import Share_btn_mob from "../../images/share_btn_mob.svg";
 
 const Header = () => {
   const [twitter, setTwitter] = useState({
@@ -12,7 +12,7 @@ const Header = () => {
 
   const [slack, setSlack] = useState({
     id: "slack",
-    username: "Tega Akpovbiyor",
+    username: "TegaAkpovbiyor",
   });
 
   return (
