@@ -6,7 +6,7 @@ const Data = [
   },
   {
     tag: "Zuri Team",
-    id: "btn_zuri",
+    id: "btn__zuri",
     link: "https://training.zuri.team",
   },
   {
@@ -16,7 +16,7 @@ const Data = [
   },
   {
     tag: "Python Books",
-    id: "book_python",
+    id: "book__python",
     link: "https://books.zuri.team/python-for-beginners?ref_id=Akpovbiyor",
   },
   {
@@ -26,7 +26,7 @@ const Data = [
   },
   {
     tag: "Design Books",
-    id: "book_Design",
+    id: "book__design",
     link: "https://books.zuri.team/design-rules",
   },
 ];
