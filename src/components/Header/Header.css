@@ -1,0 +1,17 @@
+#slack{
+    display: none;
+}
+
+.profile-section{
+    width: 72rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.profile-section #twitter{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
