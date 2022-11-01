@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import Profile_img from "../../images/profile_img.png";
 import Share_btn from "../../images/share_btn.svg";
 import Share_btn_mob from "../../images/share_btn_mob.svg";
 
