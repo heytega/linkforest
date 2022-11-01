@@ -1,6 +1,7 @@
 .list-container {
-    max-width: 72rem;
-    background-color: blue;   
+    width: 72rem;
+    background-color: #fff;   
+    text-align: center;  
 }
 
 a{
@@ -8,4 +9,16 @@ a{
     text-decoration: none;
     font-weight: 500;
     line-height: 1.75rem;
+    align-items: center;
+    color: #101828;
+    background: #EAECF0;
+    border: #fff 1px solid;
+    padding: 24px 32px;
+    margin-bottom: 0.5rem;
+}
+
+@media(max-width: 73rem) {
+    .list-container{
+        width:90%;
+    }
 }
