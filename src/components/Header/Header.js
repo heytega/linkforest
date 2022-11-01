@@ -1,20 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
-import Profile_img from "../../images/profile__img.png";
 import Share_btn from "../../images/share_btn.svg";
 import Share_btn_mob from "../../images/share_btn_mob.svg";
 
 const Header = ({ twitter, slack }) => {
-  // const [twitter, setTwitter] = useState({
-  //   id: "twitter",
-  //   username: "Annette Black",
-  // });
-
-  // const [slack, setSlack] = useState({
-  //   id: "slack",
-  //   username: "TegaAkpovbiyor",
-  // });
-
   return (
     <div className="profile-section">
       <button className="btn desk_btn">
