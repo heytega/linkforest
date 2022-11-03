@@ -6,7 +6,7 @@ const List = () => {
   return (
     <div className="list-container">
       {data.map((list) => (
-        <a href={list.link} id={list.id} target="_blank">
+        <a href={list.link} id={list.id} target="_blank" rel="noreferrer">
           {list.tag}
         </a>
       ))}
