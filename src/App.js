@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Header from "./components/Header/Header";
-import List from "./components/List/List";
-import Footer from "./components/Footer/Footer";
-import Socials from "./components/Socials/Socials";
+import Header from "./Components/Header/Header";
+import List from "./Components/List/List";
+import Footer from "./Components/Footer/Footer";
+import Socials from "./Components/Socials/Socials";
 import "./App.css";
 
 const App = () => {
