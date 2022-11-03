@@ -1,11 +1,11 @@
 import React from "react";
 import "./List.css";
-import data from "../../data";
+import Data from "../../Data";
 
 const List = () => {
   return (
     <div className="list-container">
-      {data.map((list) => (
+      {Data.map((list) => (
         <a href={list.link} id={list.id} target="_blank" rel="noreferrer">
           {list.tag}
         </a>
