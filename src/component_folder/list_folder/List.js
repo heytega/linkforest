@@ -1,6 +1,6 @@
 import React from "react";
 import "./List.css";
-import Data from "../../Data";
+import Data from "../../DataFile";
 
 const List = () => {
   return (
