@@ -31,11 +31,11 @@ const Form = ({ twitter }) => {
           <span className="helperText">helper text</span>
         </div>
         <div className="form-control">
-          <label htmlFor="firstName">Last name</label>
+          <label htmlFor="lastName">Last name</label>
           <input
             type="text"
             id="last_name"
-            name="firstName"
+            name="lastName"
             placeholder="Enter your last name"
             value={person.lastName}
             onChange={handleChange}
