@@ -25,7 +25,7 @@ const Form = ({ twitter }) => {
             id="first_name"
             name="firstName"
             placeholder="Enter your first name"
-            value={firstName}
+            value={person.firstName}
             onChange={handleChange}
           />
           <span className="helperText">helper text</span>
@@ -37,7 +37,7 @@ const Form = ({ twitter }) => {
             id="last_name"
             name="firstName"
             placeholder="Enter your last name"
-            value={lastName}
+            value={person.lastName}
             onChange={handleChange}
           />
           <span className="helperText">helper text</span>
@@ -50,7 +50,7 @@ const Form = ({ twitter }) => {
           id="email"
           name="email"
           placeholder="Yourname@email.com"
-          value={email}
+          value={person.email}
           onChange={handleChange}
         />
         <span className="helperText">helper text</span>
@@ -62,7 +62,7 @@ const Form = ({ twitter }) => {
           name="message"
           id="message"
           placeholder="Send me a message and I'll reply as soon as possible..."
-          value={message}
+          value={person.message}
           onChange={handleChange}
         ></textarea>
         <span className="helperText">helper text</span>
