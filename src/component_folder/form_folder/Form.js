@@ -2,10 +2,18 @@ import React, { useState } from "react";
 import "./Form.css";
 
 const Form = ({ twitter }) => {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [person, setPerson] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setPerson({ ...person, [name]: value });
+  };
 
   return (
     <form>
@@ -18,7 +26,7 @@ const Form = ({ twitter }) => {
             name="firstName"
             placeholder="Enter your first name"
             value={firstName}
-            onChange={(e) => setFirstName(e.target.value)}
+            onChange={handleChange}
           />
           <span className="helperText">helper text</span>
         </div>
@@ -30,7 +38,7 @@ const Form = ({ twitter }) => {
             name="firstName"
             placeholder="Enter your last name"
             value={lastName}
-            onChange={(e) => setLastName(e.target.value)}
+            onChange={handleChange}
           />
           <span className="helperText">helper text</span>
         </div>
@@ -43,7 +51,7 @@ const Form = ({ twitter }) => {
           name="email"
           placeholder="Yourname@email.com"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={handleChange}
         />
         <span className="helperText">helper text</span>
       </div>
@@ -55,7 +63,7 @@ const Form = ({ twitter }) => {
           id="message"
           placeholder="Send me a message and I'll reply as soon as possible..."
           value={message}
-          onChange={(e) => setMessage(e.target.value)}
+          onChange={handleChange}
         ></textarea>
         <span className="helperText">helper text</span>
       </div>

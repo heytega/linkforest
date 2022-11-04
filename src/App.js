@@ -21,6 +21,7 @@ const App = () => {
       username: "Tega Akpovbiyor",
     });
   }, []);
+
   return (
     <div className="main-container">
       <BrowserRouter>
