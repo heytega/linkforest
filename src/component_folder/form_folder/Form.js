@@ -15,8 +15,12 @@ const Form = ({ twitter }) => {
     setPerson({ ...person, [name]: value });
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div className="form-flex-container">
         <div className="form-control">
           <label htmlFor="firstName">First name</label>
@@ -77,8 +81,7 @@ const Form = ({ twitter }) => {
         </label>
       </div>
       <div className="form-control">
-        {/* <input className="btn" value="Send message" /> */}
-        <button className="btn" id="btn__submit">
+        <button className="btn" id="btn__submit" type="submit">
           Send message
         </button>
       </div>
