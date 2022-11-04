@@ -6,7 +6,8 @@
     width: 90%;
     max-width: 1440px;
     padding: 48px;
-    border-top: 1px solid #EAECF0;;
+    border-top: 1px solid #EAECF0;
+    margin-top: 6rem;
 }
 
 .footer-container h2 {
