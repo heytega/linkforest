@@ -10,12 +10,12 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
    /* display: flex;
   flex-direction: column;
   text-align: center;  */
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+ code, pre {
+  font-family: 'Inter', sans-serif;
+}
