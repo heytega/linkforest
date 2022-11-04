@@ -1,0 +1,29 @@
+form {
+    margin-top: 2rem;
+}
+
+form label {
+    display: block;
+}
+
+.form-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first_name,
+#last_name {
+    width: 348px;
+}
+
+#email {
+    width: 720px;
+}
+
+textarea{
+    width: 720px;
+}
+
+.checkbox{
+    display: flex;
+}
