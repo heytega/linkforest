@@ -172,3 +172,21 @@ textarea:focus, input:focus{
     left: 0;
     top: 0;
 }
+
+.helperText {
+    display: none;
+}
+
+@media(max-width: 781px){
+    #email {
+        width: 100%;
+    }
+
+    .form-flex-container {
+        flex-direction: column;
+    }
+
+    #first_name, #last_name {
+        width: 100%;
+    }
+}

@@ -4,6 +4,7 @@ h1{
     line-height: 44px;
     letter-spacing: -0.02em;
     color: #101828;
+    margin-bottom: 0.8rem;
 }
 
 p{
@@ -18,5 +19,15 @@ p{
     padding-top: 5rem;
     /* border: #475467 solid 1px;/ */
     position: relative;
+}
+
+@media(max-width: 780px){
+    .contact-page-container{
+        width: 90%;
+    }
+
+    p{
+        font-size: 18px;
+    }
 }
 
