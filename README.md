@@ -14,6 +14,12 @@ This is a solution to the [HNG Frontend Stage 1 & 2 Task Figma Design](https://w
 - Make the entire application fully responsive on both mobile and desktop devices.
 - Ensure the application gives a great UI/UX experience.
 
+### Features
+
+- A Homepage consisting of a profile image and links to various intended web plaforms as well as a 'contact' section.
+- A contact Page containing a Form to reach the Profile owner.
+- Few animation to improve user experience.
+
 ### Links
 
 - Live Site URL: [Live site URL here](https://linkforest-three.vercel.app/)
