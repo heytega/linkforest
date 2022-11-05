@@ -5,6 +5,7 @@ This is a solution to the [HNG Frontend Stage 1 & 2 Task Figma Design](https://w
 ## Table of contents
 
 - [The challenge](#the-challenge)
+- [Features](#features)
 - [Links](#links)
 - [Built with](#built-with)
 
