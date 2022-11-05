@@ -121,7 +121,7 @@ const Form = ({ twitter }) => {
               initial="hidden"
               animate="visible"
             >
-              Hint: What you would us like to call you
+              Hint: What you would like us to call you
             </motion.span>
           )}
         </div>
