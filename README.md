@@ -22,7 +22,5 @@ This is a solution to the [HNG Frontend Stage 1 & 2 Task Figma Design](https://w
 ### Built with
 
 - React.js
-- CSS
-- Flexbox
-- Framer motion
-- Desktop-first workflow
+- Custom CSS
+- Framer motion (for animation)
