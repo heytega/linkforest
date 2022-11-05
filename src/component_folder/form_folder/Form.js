@@ -1,5 +1,15 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import "./Form.css";
+
+const helperVariant = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+  },
+};
 
 const Form = ({ twitter }) => {
   const [showHelper, setShowHelper] = useState({
@@ -105,9 +115,14 @@ const Form = ({ twitter }) => {
             onChange={handleChange}
           />
           {showHelper.firstName && (
-            <span className="helperText">
+            <motion.span
+              className="helperText"
+              variants={helperVariant}
+              initial="hidden"
+              animate="visible"
+            >
               Hint: What you would us like to call you
-            </span>
+            </motion.span>
           )}
         </div>
         <div className="form-control control-last">
@@ -125,7 +140,14 @@ const Form = ({ twitter }) => {
               onChange={handleChange}
             />
             {showHelper.lastName && (
-              <span className="helperText">Hint: perferably your surname</span>
+              <motion.span
+                className="helperText"
+                variants={helperVariant}
+                initial="hidden"
+                animate="visible"
+              >
+                Hint: Perferably your surname
+              </motion.span>
             )}
           </div>
         </div>
@@ -136,7 +158,7 @@ const Form = ({ twitter }) => {
           onClick={showHelperText}
           required
           autoComplete="off"
-          type="text"
+          type="email"
           id="email"
           name="email"
           placeholder="Yourname@email.com"
@@ -144,9 +166,14 @@ const Form = ({ twitter }) => {
           onChange={handleChange}
         />
         {showHelper.email && (
-          <span className="helperText">
-            Hint: Input an email readily accessible to you
-          </span>
+          <motion.span
+            className="helperText"
+            variants={helperVariant}
+            initial="hidden"
+            animate="visible"
+          >
+            Hint: An email readily accessible to you
+          </motion.span>
         )}
       </div>
 
@@ -162,9 +189,14 @@ const Form = ({ twitter }) => {
           onChange={handleChange}
         ></textarea>
         {showHelper.message && (
-          <span className="helperText">
+          <motion.span
+            className="helperText"
+            variants={helperVariant}
+            initial="hidden"
+            animate="visible"
+          >
             Hint: Keep it concise and straight to the point.
-          </span>
+          </motion.span>
         )}
       </div>
 
