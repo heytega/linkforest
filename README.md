@@ -11,7 +11,7 @@ This is a solution to the [HNG Frontend Stage 1 & 2 Task Figma Design](https://w
 ### The challenge
 
 - Create the application to look as close as possible to the figma design.
-- Make the entire application fully responsive.
+- Make the entire application fully responsive on both mobile and desktop devices.
 - Ensure the application gives a great UI/UX experience.
 
 ### Links
