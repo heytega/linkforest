@@ -10,9 +10,6 @@
     top: 2rem;
     right: 20%;
     left: 80%;
-    /* top: 9vh; */
-    /* right: 15rem; */
-    /* right: 20vw; */
 }
 
 .mob_btn{
@@ -31,6 +28,8 @@
     width: 88px;
     border-radius: 50px;
     margin: auto;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .profileImage-container img {
@@ -38,6 +37,7 @@
     height: 100%;
     border-radius: 50px;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .profile-section #twitter{
