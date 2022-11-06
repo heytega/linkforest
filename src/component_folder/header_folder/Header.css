@@ -28,7 +28,6 @@
     width: 88px;
     border-radius: 50px;
     margin: auto;
-    box-sizing: border-box;
     cursor: pointer;
 }
 
@@ -37,7 +36,6 @@
     height: 100%;
     border-radius: 50px;
     cursor: pointer;
-    box-sizing: border-box;
 }
 
 .profile-section #twitter{
