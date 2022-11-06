@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Profile_img from "../../images/profile_img.png";
+import Profile_img from "../../images/profile_img.jpg";
 import Share_btn from "../../images/share_btn.svg";
 import Share_btn_mob from "../../images/share_btn_mob.svg";
 
@@ -13,7 +13,9 @@ const Header = ({ twitter, slack }) => {
       <button className="btn mob_btn">
         <img src={Share_btn_mob} alt="share avatar" />
       </button>
-      <img src={Profile_img} alt="profile display" id="profile__img" />
+      <div className="profileImage-container">
+        <img src={Profile_img} alt="profile display" id="profile__img" />
+      </div>
       <h1 id={twitter.id}>{twitter.username}</h1>
       <h1 id={slack.id}>{slack.username}</h1>
     </div>
