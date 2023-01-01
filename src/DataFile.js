@@ -1,18 +1,25 @@
 const Data = [
   {
-    tag: "Twitter Link",
+    tag: "Twitter",
     id: "twitter",
     link: "https://www.twitter.com/TegaDev",
     target: "_blank",
     rel: "noreferrer",
   },
   {
-    tag: "Zuri Team",
-    id: "btn__zuri",
-    link: "https://training.zuri.team",
+    tag: "LinkedIn",
+    id: "btn__linkedIn",
+    link: "https://www.linkedin.com/in/tega-akpovbiyor",
     target: "_blank",
     rel: "noreferrer",
   },
+  // {
+  //   tag: "Zuri Team",
+  //   id: "btn__zuri",
+  //   link: "https://training.zuri.team",
+  //   target: "_blank",
+  //   rel: "noreferrer",
+  // },
   {
     tag: "Zuri Books",
     id: "books",
