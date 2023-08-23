@@ -17,9 +17,9 @@ This is a solution to the [HNG Frontend Stage 1 & 2 Task Figma Design](https://w
 
 ### Features
 
-- A Homepage consisting of a profile image and links to various intended web plaforms as well as a 'contact' section.
+- A Homepage consisting of a profile image and links to various intended web plaforms as well as a 'Contact me' section.
 - A contact Page containing a Form to reach the Profile owner.
-- Few animation to improve user experience.
+- Few animations to improve user experience.
 
 ### Links
 
